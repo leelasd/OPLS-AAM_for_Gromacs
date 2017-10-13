@@ -1,0 +1,8 @@
+
+package require psfgen   
+topology top_opls_aam.inp
+
+mol new DIP_Y.pdb  
+package require autopsf  
+autopsf -protein -mol 0 -prefix GP -top top_opls_aam.inp 
+exit

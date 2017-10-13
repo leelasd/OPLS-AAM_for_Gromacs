@@ -1,0 +1,13 @@
+integrator          = md
+unconstrained_start = yes
+cutoff-scheme	    = Group
+nsteps              = 0
+pbc                 = no
+nstlist             = 0
+ns-type             = simple
+rlist               = 0
+coulombtype         = cut-off
+rcoulomb            = 0
+vdwtype             = cut-off
+rvdw                = 0
+

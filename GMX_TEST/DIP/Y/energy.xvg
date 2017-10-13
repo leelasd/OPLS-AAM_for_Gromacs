@@ -1,0 +1,34 @@
+# This file was created Thu Oct  5 23:35:14 2017
+# Created by:
+#                      :-) GROMACS - gmx energy, 2016.1 (-:
+# 
+# Executable:   /usr/local/gromacs/bin//gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /Users/Sriram/Documents/PP_OPLSAA/GMX_TEST/DIP/Y
+# Command line:
+#   gmx energy -f em.edr
+# gmx energy is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Bond"
+@ s1 legend "Angle"
+@ s2 legend "Ryckaert-Bell."
+@ s3 legend "Improper Dih."
+@ s4 legend "LJ-14"
+@ s5 legend "Coulomb-14"
+@ s6 legend "LJ (SR)"
+@ s7 legend "Coulomb (SR)"
+@ s8 legend "Potential"
+@ s9 legend "Total Energy"
+    0.000000    5.595532   30.822895   55.601578    1.890078  118.867790  544.989685  -55.269070  -1201.273804  -498.775269  -498.765350

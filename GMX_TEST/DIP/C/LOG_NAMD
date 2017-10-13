@@ -1,0 +1,152 @@
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    Leelas-MacBook-Pro.local  Sriram
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00358009 s
+Info: 2409.14 MB of memory in use based on ps
+Info: Configuration file is SPM.conf
+Info: Working in the current directory /Users/Sriram/Documents/PP_OPLSAA/GMX_TEST/DIP/C
+TCL: Suspending until startup complete.
+Warning: The parameter fullElectFrequency now defaults to nonbondedFreq (1) rather than stepsPerCycle.
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               1
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        20
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             4000 steps
+Info: FIRST LDB TIMESTEP     100
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    0
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 0.5
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: NO DCD TRAJECTORY OUTPUT
+Info: NO EXTENDED SYSTEM TRAJECTORY OUTPUT
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        plt_min
+Info: NO RESTART FILE
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           50
+Info: SWITCHING OFF          100
+Info: PAIRLIST DISTANCE      100
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        102.5
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    100
+Info: DIRECT FULL ELECTROSTATIC CALCULATIONS ACTIVE
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      1
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RANDOM NUMBER SEED     1507754819
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         plt.pdb
+Info: STRUCTURE FILE         GP.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             par_opls_aam.inp
+Info: USING GEOMETRIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: SUMMARY OF PARAMETERS:
+Info: 159 BONDS
+Info: 437 ANGLES
+Info: 1446 DIHEDRAL
+Info: 105 IMPROPER
+Info: 0 CROSSTERM
+Info: 78 VDW
+Info: 0 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.00127602
+Info: TIME FOR READING PDB FILE: 0.001158
+Info: 
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 36 ATOMS
+Info: 35 BONDS
+Info: 60 ANGLES
+Info: 83 DIHEDRALS
+Info: 5 IMPROPERS
+Info: 0 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 105 DEGREES OF FREEDOM
+Info: 19 HYDROGEN GROUPS
+Info: 4 ATOMS IN LARGEST HYDROGEN GROUP
+Info: 19 MIGRATION GROUPS
+Info: 4 ATOMS IN LARGEST MIGRATION GROUP
+Info: TOTAL MASS = 327.434 amu
+Info: TOTAL CHARGE = -2.23517e-08 e
+Info: *****************************
+Info: 
+Info: Entering startup at 0.0538201 s, 2452.68 MB of memory in use
+Info: Startup phase 0 took 0.00691199 s, 2452.68 MB of memory in use
+Info: ADDED 178 IMPLICIT EXCLUSIONS
+Info: Startup phase 1 took 0.00655198 s, 2460.68 MB of memory in use
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 1153 POINTS
+Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000290475 AT 0.251946
+Info: INCONSISTENCY IN SCOR TABLE ENERGY VS FORCE: 0.0972788 AT 0.0382733
+Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0040507 AT 0.251946
+Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.00150189 AT 0.251946
+Info: Startup phase 2 took 0.0074451 s, 2461.41 MB of memory in use
+Info: Startup phase 3 took 0.00816894 s, 2461.41 MB of memory in use
+Info: Startup phase 4 took 0.00965095 s, 2461.41 MB of memory in use
+Info: Startup phase 5 took 0.00537395 s, 2461.41 MB of memory in use
+Info: PATCH GRID IS 1 BY 1 BY 1
+Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
+Info: REMOVING COM VELOCITY 0 0 0
+Info: LARGEST PATCH (0) HAS 36 ATOMS
+Info: TORUS A SIZE 1 USING 0
+Info: TORUS B SIZE 1 USING 0
+Info: TORUS C SIZE 1 USING 0
+Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
+Info: Placed 100% of base nodes on same physical node as patch
+Info: Startup phase 6 took 0.00554299 s, 2461.41 MB of memory in use
+Info: Startup phase 7 took 0.00504208 s, 2461.41 MB of memory in use
+Info: Startup phase 8 took 0.00503111 s, 2461.41 MB of memory in use
+LDB: Central LB being created...
+Info: Startup phase 9 took 0.00488591 s, 2461.41 MB of memory in use
+Info: CREATING 12 COMPUTE OBJECTS
+Info: Startup phase 10 took 0.00520492 s, 2461.41 MB of memory in use
+Info: Startup phase 11 took 0.00504708 s, 2461.41 MB of memory in use
+Info: Startup phase 12 took 0.00507188 s, 2461.66 MB of memory in use
+Info: Finished startup at 0.133749 s, 2461.66 MB of memory in use
+
+TCL: Running for 0 steps
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
+
+ENERGY:       0         0.8940         8.2819         3.6146         0.2999           -110.6900         6.7214         0.0000         0.0000         0.0000            -90.8782         0.0000       -90.8782       -90.8777         0.0000
+
+WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 0
+WRITING COORDINATES TO OUTPUT FILE AT STEP 0
+The last position output (seq=-2) takes 0.006 seconds, 2461.660 MB of memory in use
+WRITING VELOCITIES TO OUTPUT FILE AT STEP 0
+The last velocity output (seq=-2) takes 0.006 seconds, 2461.660 MB of memory in use
+====================================================
+
+WallClock: 0.155017  CPUTime: 0.155017  Memory: 2461.660156 MB
+Program finished after 0.161192 seconds.

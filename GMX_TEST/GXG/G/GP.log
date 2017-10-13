@@ -1,0 +1,34 @@
+#Original PDB file: 
+#PDBSTART
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  N   ALA X   1      -2.983  -4.446   6.956  1.00  0.00            
+ATOM      2  H   ALA X   1      -3.447  -5.331   7.094  1.00  0.00            
+ATOM      3  CA  ALA X   1      -1.682  -4.415   7.599  1.00  0.00            
+ATOM      4  HA  ALA X   1      -1.770  -4.912   8.567  1.00  0.00            
+ATOM      5  CB  ALA X   1      -0.699  -5.179   6.703  1.00  0.00            
+ATOM      6  HB1 ALA X   1       0.294  -5.231   7.152  1.00  0.00            
+ATOM      7  HB2 ALA X   1      -1.031  -6.203   6.536  1.00  0.00            
+ATOM      8  HB3 ALA X   1      -0.595  -4.696   5.730  1.00  0.00            
+ATOM      9  C   ALA X   1      -1.219  -2.972   7.862  1.00  0.00            
+ATOM     10  O   ALA X   1      -1.332  -2.108   6.991  1.00  0.00            
+ATOM     11  N   GLY X   2      -0.691  -2.647   9.039  1.00  0.00            
+ATOM     12  H   GLY X   2      -0.596  -3.341   9.753  1.00  0.00            
+ATOM     13  CA  GLY X   2      -0.253  -1.281   9.288  1.00  0.00            
+ATOM     14  HA1 GLY X   2      -0.088  -0.762   8.340  1.00  0.00            
+ATOM     15  HA2 GLY X   2      -1.014  -0.735   9.844  1.00  0.00            
+ATOM     16  C   GLY X   2       1.073  -1.319  10.054  1.00  0.00            
+ATOM     17  O   GLY X   2       1.201  -2.090  11.007  1.00  0.00            
+ATOM     18  N   ALA X   3       2.075  -0.523   9.690  1.00  0.00            
+ATOM     19  H   ALA X   3       1.962   0.100   8.916  1.00  0.00            
+ATOM     20  CA  ALA X   3       3.331  -0.559  10.416  1.00  0.00            
+ATOM     21  HA  ALA X   3       3.140  -0.984  11.403  1.00  0.00            
+ATOM     22  CB  ALA X   3       4.298  -1.457   9.634  1.00  0.00            
+ATOM     23  HB1 ALA X   3       5.253  -1.563  10.152  1.00  0.00            
+ATOM     24  HB2 ALA X   3       3.889  -2.459   9.505  1.00  0.00            
+ATOM     25  HB3 ALA X   3       4.504  -1.048   8.644  1.00  0.00            
+ATOM     26  C   ALA X   3       3.900   0.855  10.625  1.00  0.00            
+ATOM     27  O   ALA X   3       3.335   1.837  10.142  1.00  0.00            
+END
+
+#PDBEND
+#Creating chain P1: 3 residues from indices 1 to 27 in original file. Patches: Nter NTER, Cter CTER

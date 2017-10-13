@@ -1,0 +1,44 @@
+
+Select the Force Field:
+From '/usr/local/gromacs/share/gromacs/top':
+ 1: AMBER03 protein, nucleic AMBER94 (Duan et al., J. Comp. Chem. 24, 1999-2012, 2003)
+ 2: AMBER94 force field (Cornell et al., JACS 117, 5179-5197, 1995)
+ 3: AMBER96 protein, nucleic AMBER94 (Kollman et al., Acc. Chem. Res. 29, 461-469, 1996)
+ 4: AMBER99 protein, nucleic AMBER94 (Wang et al., J. Comp. Chem. 21, 1049-1074, 2000)
+ 5: AMBER99SB protein, nucleic AMBER94 (Hornak et al., Proteins 65, 712-725, 2006)
+ 6: AMBER99SB-ILDN protein, nucleic AMBER94 (Lindorff-Larsen et al., Proteins 78, 1950-58, 2010)
+ 7: AMBERGS force field (Garcia & Sanbonmatsu, PNAS 99, 2782-2787, 2002)
+ 8: CHARMM27 all-atom force field (CHARM22 plus CMAP for proteins)
+ 9: GROMOS96 43a1 force field
+10: GROMOS96 43a2 force field (improved alkane dihedrals)
+11: GROMOS96 45a3 force field (Schuler JCC 2001 22 1205)
+12: GROMOS96 53a5 force field (JCC 2004 vol 25 pag 1656)
+13: GROMOS96 53a6 force field (JCC 2004 vol 25 pag 1656)
+14: GROMOS96 54a7 force field (Eur. Biophys. J. (2011), 40,, 843-856, DOI: 10.1007/s00249-011-0700-9)
+15: OPLS-AA/L all-atom force field (2001 aminoacid dihedrals)
+16: OPLS-AA/M all-atom force field (2015 aminoacid dihedrals)
+
+Using the Oplsaam force field in directory oplsaam.ff
+
+Reading DIP_R.pdb...
+Read 'pmx.chain.Chain < Chain: id =  nres = 3 natoms = 72 >', 72 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+There are 1 chains and 0 blocks of water and 3 residues with 72 atoms
+
+  chain  #res #atoms
+  1 ' '     3     72  
+
+Reading residue database... (oplsaam)
+Processing chain 1 (72 atoms, 3 residues)
+Identified residue ARG1 as a starting terminus.
+Identified residue ARG3 as a ending terminus.
+Start terminus ARG-1: NH3+
+End terminus ARG-3: COO-
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 3 residues with 75 atoms
+		--------- PLEASE NOTE ------------
+You have successfully generated a topology from: DIP_R.pdb.
+The Oplsaam force field is used.
+		--------- ETON ESAELP ------------

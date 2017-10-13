@@ -1,0 +1,245 @@
+;
+;	File 'topol.top' was generated
+;	By user: Sriram (501)
+;	On host: Leelas-MacBook-Pro.local
+;	At date: Thu Oct  5 23:22:01 2017
+
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2016.1 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin//gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /Users/Sriram/Documents/PP_OPLSAA/GMX_TEST/DIP/G
+;	Command line:
+;	  gmx pdb2gmx -f plt.pdb -o GMX_G.pdb -water none -ter
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "oplsaam.ff/forcefield.itp"
+
+[ moleculetype ]
+; Name            nrexcl
+Protein_chain_X     3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 GLY rtp GLY  q +1.0
+     1  oplsm_287      1    GLY      N      1       -0.3    14.0027   ; qtot -0.3
+     2  oplsm_290      1    GLY     H1      1       0.33      1.008   ; qtot 0.03
+     3  oplsm_290      1    GLY     H2      1       0.33      1.008   ; qtot 0.36
+     4  oplsm_290      1    GLY     H3      1       0.33      1.008   ; qtot 0.69
+     5  oplsm_292      1    GLY     CA      1       0.19     12.011   ; qtot 0.88
+     6  oplsm_140      1    GLY    HA1      1       0.06      1.008   ; qtot 0.94
+     7  oplsm_140      1    GLY    HA2      1       0.06      1.008   ; qtot 1
+     8  oplsm_235      1    GLY      C      2        0.5     12.011   ; qtot 1.5
+     9  oplsm_236      1    GLY      O      2       -0.5    15.9994   ; qtot 1
+; residue   2 GLY rtp GLY  q  0.0
+    10  oplsm_238      2    GLY      N      3       -0.5     14.007   ; qtot 0.5
+    11  oplsm_241      2    GLY      H      3        0.3      1.008   ; qtot 0.8
+    12  oplsm_223      2    GLY     CA      3       0.08     12.011   ; qtot 0.88
+    13  oplsm_140      2    GLY    HA1      3       0.06      1.008   ; qtot 0.94
+    14  oplsm_140      2    GLY    HA2      3       0.06      1.008   ; qtot 1
+    15  oplsm_235      2    GLY      C      4        0.5     12.011   ; qtot 1.5
+    16  oplsm_236      2    GLY      O      4       -0.5    15.9994   ; qtot 1
+; residue   3 GLY rtp GLY  q -1.0
+    17  oplsm_238      3    GLY      N      5       -0.5     14.007   ; qtot 0.5
+    18  oplsm_241      3    GLY      H      5        0.3      1.008   ; qtot 0.8
+    19  oplsm_284      3    GLY     CA      5      -0.02     12.011   ; qtot 0.78
+    20  oplsm_140      3    GLY    HA1      5       0.06      1.008   ; qtot 0.84
+    21  oplsm_140      3    GLY    HA2      5       0.06      1.008   ; qtot 0.9
+    22  oplsm_271      3    GLY      C      6        0.7     12.011   ; qtot 1.6
+    23  oplsm_272      3    GLY     O1      6       -0.8    15.9994   ; qtot 0.8
+    24  oplsm_272      3    GLY     O2      6       -0.8    15.9994   ; qtot 0
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     3     1 
+    1     4     1 
+    1     5     1 
+    5     6     1 
+    5     7     1 
+    5     8     1 
+    8     9     1 
+    8    10     1 
+   10    11     1 
+   10    12     1 
+   12    13     1 
+   12    14     1 
+   12    15     1 
+   15    16     1 
+   15    17     1 
+   17    18     1 
+   17    19     1 
+   19    20     1 
+   19    21     1 
+   19    22     1 
+   22    23     1 
+   22    24     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     9     1 
+    1    10     1 
+    2     6     1 
+    2     7     1 
+    2     8     1 
+    3     6     1 
+    3     7     1 
+    3     8     1 
+    4     6     1 
+    4     7     1 
+    4     8     1 
+    5    11     1 
+    5    12     1 
+    6     9     1 
+    6    10     1 
+    7     9     1 
+    7    10     1 
+    8    13     1 
+    8    14     1 
+    8    15     1 
+    9    11     1 
+    9    12     1 
+   10    16     1 
+   10    17     1 
+   11    13     1 
+   11    14     1 
+   11    15     1 
+   12    18     1 
+   12    19     1 
+   13    16     1 
+   13    17     1 
+   14    16     1 
+   14    17     1 
+   15    20     1 
+   15    21     1 
+   15    22     1 
+   16    18     1 
+   16    19     1 
+   17    23     1 
+   17    24     1 
+   18    20     1 
+   18    21     1 
+   18    22     1 
+   20    23     1 
+   20    24     1 
+   21    23     1 
+   21    24     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3     1 
+    2     1     4     1 
+    2     1     5     1 
+    3     1     4     1 
+    3     1     5     1 
+    4     1     5     1 
+    1     5     6     1 
+    1     5     7     1 
+    1     5     8     1 
+    6     5     7     1 
+    6     5     8     1 
+    7     5     8     1 
+    5     8     9     1 
+    5     8    10     1 
+    9     8    10     1 
+    8    10    11     1 
+    8    10    12     1 
+   11    10    12     1 
+   10    12    13     1 
+   10    12    14     1 
+   10    12    15     1 
+   13    12    14     1 
+   13    12    15     1 
+   14    12    15     1 
+   12    15    16     1 
+   12    15    17     1 
+   16    15    17     1 
+   15    17    18     1 
+   15    17    19     1 
+   18    17    19     1 
+   17    19    20     1 
+   17    19    21     1 
+   17    19    22     1 
+   20    19    21     1 
+   20    19    22     1 
+   21    19    22     1 
+   19    22    23     1 
+   19    22    24     1 
+   23    22    24     1 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    2     1     5     6     3 
+    2     1     5     7     3 
+    2     1     5     8     3 
+    3     1     5     6     3 
+    3     1     5     7     3 
+    3     1     5     8     3 
+    4     1     5     6     3 
+    4     1     5     7     3 
+    4     1     5     8     3 
+    1     5     8     9     3 
+    1     5     8    10     3 
+    6     5     8     9     3 
+    6     5     8    10     3 
+    7     5     8     9     3 
+    7     5     8    10     3 
+    5     8    10    11     3 
+    5     8    10    12     3 
+    9     8    10    11     3 
+    9     8    10    12     3 
+    8    10    12    13     3 
+    8    10    12    14     3 
+    8    10    12    15     3 
+   11    10    12    13     3 
+   11    10    12    14     3 
+   11    10    12    15     3 
+   10    12    15    16     3 
+   10    12    15    17     3 
+   13    12    15    16     3 
+   13    12    15    17     3 
+   14    12    15    16     3 
+   14    12    15    17     3 
+   12    15    17    18     3 
+   12    15    17    19     3 
+   16    15    17    18     3 
+   16    15    17    19     3 
+   15    17    19    20     3 
+   15    17    19    21     3 
+   15    17    19    22     3 
+   18    17    19    20     3 
+   18    17    19    21     3 
+   18    17    19    22     3 
+   17    19    22    23     3 
+   17    19    22    24     3 
+   20    19    22    23     3 
+   20    19    22    24     3 
+   21    19    22    23     3 
+   21    19    22    24     3 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3
+    9     8     5    10     4 
+   11    10     8    12     4 
+   16    15    12    17     4 
+   18    17    15    19     4 
+   23    22    19    24     4 
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre.itp"
+#endif
+
+[ system ]
+; Name
+Protein
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_X     1

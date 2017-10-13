@@ -1,0 +1,26 @@
+REMARK original generated coordinate pdb file
+ATOM      1  N   GLY X   1      16.653   8.006  17.314  1.00  0.00      P1   N
+ATOM      2  HT1 GLY X   1      15.742   8.198  16.949  0.00  0.00      P1   H
+ATOM      3  HT2 GLY X   1      16.576   7.510  18.179  0.00  0.00      P1   H
+ATOM      4  HT3 GLY X   1      17.177   7.465  16.656  0.00  0.00      P1   H
+ATOM      5  CA  GLY X   1      17.344   9.266  17.550  1.00  0.00      P1   C
+ATOM      6  HA1 GLY X   1      17.459   9.812  16.610  1.00  0.00      P1   H
+ATOM      7  HA2 GLY X   1      16.770   9.889  18.235  1.00  0.00      P1   H
+ATOM      8  C   GLY X   1      18.739   8.968  18.109  1.00  0.00      P1   C
+ATOM      9  O   GLY X   1      18.868   8.127  19.000  1.00  0.00      P1   O
+ATOM     10  N   GLY X   2      19.799   9.615  17.632  1.00  0.00      P1   N
+ATOM     11  HN  GLY X   2      19.761  10.306  16.911  0.00  0.00      P1   H
+ATOM     12  CA  GLY X   2      21.125   9.332  18.164  1.00  0.00      P1   C
+ATOM     13  HA1 GLY X   2      21.042   8.865  19.149  1.00  0.00      P1   H
+ATOM     14  HA2 GLY X   2      21.656   8.644  17.507  1.00  0.00      P1   H
+ATOM     15  C   GLY X   2      21.888  10.651  18.318  1.00  0.00      P1   C
+ATOM     16  O   GLY X   2      21.857  11.480  17.406  1.00  0.00      P1   O
+ATOM     17  N   GLY X   3      22.577  10.895  19.429  1.00  0.00      P1   N
+ATOM     18  HN  GLY X   3      22.641  10.266  20.203  0.00  0.00      P1   H
+ATOM     19  CA  GLY X   3      23.303  12.149  19.575  1.00  0.00      P1   C
+ATOM     20  HA1 GLY X   3      23.480  12.596  18.594  1.00  0.00      P1   H
+ATOM     21  HA2 GLY X   3      22.722  12.855  20.168  1.00  0.00      P1   H
+ATOM     22  C   GLY X   3      24.659  11.863  20.227  1.00  0.00      P1   C
+ATOM     23  OT1 GLY X   3      24.735  10.882  20.403  0.00  0.00      P1   O
+ATOM     24  OT2 GLY X   3      25.159  12.723  20.328  0.00  0.00      P1   O
+END

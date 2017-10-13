@@ -1,0 +1,35 @@
+# This file was created Tue Oct 10 17:23:12 2017
+# Created by:
+#            :-) GROMACS - gmx energy, 2016.1 (double precision) (-:
+# 
+# Executable:   /usr/local/gromacs/bin//gmx_d
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /Users/Sriram/Documents/PP_OPLSAA/GMX_TEST/PARMED_vs_GROMACS/ARGININE
+# Command line:
+#   gmx_d energy -f em.edr -f2 em.edr
+# gmx energy is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Running average free energy difference"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "\xD\f{}E (kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "\xD\f{}E = E\sB\N-E\sA\N"
+@ s1 legend "<e\S-\xD\f{}E/kT\N>\s0..t\N"
+         0          0         -0
+         0          0   -1.72894
+         0          0   -2.74031
+         0          0   -3.45789
+         0          0   -4.01448
+         0          0   -4.46925
+         0          0   -4.85376
+         0          0   -5.18683
+         0          0   -5.48062
+         0          0   -5.74343

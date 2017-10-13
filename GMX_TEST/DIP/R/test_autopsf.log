@@ -1,0 +1,9 @@
+#Original PDB file: 
+#PDBSTART
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  Na  SOD X   01     -0.090   5.000   0.000  4.00  0.00            
+ATOM      2  Cl  CLA X   2       7.813  -0.289  12.656  1.00  0.00            
+END
+
+#PDBEND
+#Creating chain O1: 1 residues from indices 1 to 2 in original file. Patches: Nter none, Cter none

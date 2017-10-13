@@ -1,0 +1,32 @@
+REMARK  FINAL VELOCITIES WRITTEN BY NAMD AT TIMESTEP 0
+ATOM      1  N   ALA X   1       0.000   0.000   0.000  1.00  0.00      P1   N 
+ATOM      2  HT1 ALA X   1       0.000   0.000   0.000  0.00  0.00      P1   H 
+ATOM      3  HT2 ALA X   1       0.000  -0.000   0.000  0.00  0.00      P1   H 
+ATOM      4  HT3 ALA X   1      -0.000   0.000   0.000  0.00  0.00      P1   H 
+ATOM      5  CA  ALA X   1      -0.000   0.000   0.000  1.00  0.00      P1   C 
+ATOM      6  HA  ALA X   1       0.000   0.000   0.000  1.00  0.00      P1   H 
+ATOM      7  CB  ALA X   1       0.000   0.000  -0.000  1.00  0.00      P1   C 
+ATOM      8  HB1 ALA X   1       0.000   0.000   0.000  1.00  0.00      P1   H 
+ATOM      9  HB2 ALA X   1       0.000  -0.000   0.000  1.00  0.00      P1   H 
+ATOM     10  HB3 ALA X   1       0.000   0.000   0.000  1.00  0.00      P1   H 
+ATOM     11  C   ALA X   1       0.000   0.000   0.000  1.00  0.00      P1   C 
+ATOM     12  O   ALA X   1       0.000   0.000  -0.000  1.00  0.00      P1   O 
+ATOM     13  N   GLY X   2      -0.000  -0.000   0.000  1.00  0.00      P1   N 
+ATOM     14  HN  GLY X   2      -0.000  -0.000   0.000  0.00  0.00      P1   H 
+ATOM     15  CA  GLY X   2       0.000   0.000   0.000  1.00  0.00      P1   C 
+ATOM     16  HA1 GLY X   2       0.000  -0.000  -0.000  1.00  0.00      P1   H 
+ATOM     17  HA2 GLY X   2      -0.000  -0.000   0.000  1.00  0.00      P1   H 
+ATOM     18  C   GLY X   2       0.000   0.000   0.000  1.00  0.00      P1   C 
+ATOM     19  O   GLY X   2       0.000   0.000   0.000  1.00  0.00      P1   O 
+ATOM     20  N   ALA X   3       0.000   0.000  -0.000  1.00  0.00      P1   N 
+ATOM     21  HN  ALA X   3       0.000  -0.000   0.000  0.00  0.00      P1   H 
+ATOM     22  CA  ALA X   3      -0.000   0.000  -0.000  1.00  0.00      P1   C 
+ATOM     23  HA  ALA X   3       0.000   0.000   0.000  1.00  0.00      P1   H 
+ATOM     24  CB  ALA X   3       0.000   0.000  -0.000  1.00  0.00      P1   C 
+ATOM     25  HB1 ALA X   3       0.000  -0.000   0.000  1.00  0.00      P1   H 
+ATOM     26  HB2 ALA X   3       0.000  -0.000   0.000  1.00  0.00      P1   H 
+ATOM     27  HB3 ALA X   3       0.000   0.000  -0.000  1.00  0.00      P1   H 
+ATOM     28  C   ALA X   3      -0.000   0.000   0.000  1.00  0.00      P1   C 
+ATOM     29  OT1 ALA X   3       0.000   0.000   0.000  0.00  0.00      P1   O 
+ATOM     30  OT2 ALA X   3       0.000   0.000  -0.000  0.00  0.00      P1   O 
+END

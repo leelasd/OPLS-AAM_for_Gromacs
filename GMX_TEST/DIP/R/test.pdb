@@ -1,0 +1,6 @@
+TITLE    pmx.chain.Chain < Chain: id =  nres = 3 natoms = 72 >
+MODEL    1
+ATOM      1 Na   SOD      1      -0.095  -2.820   8.564  1.00  0.00
+TER
+ATOM      2 Cl   CLA     2       7.813  -0.289  12.656  1.00  0.00
+ENDMDL
