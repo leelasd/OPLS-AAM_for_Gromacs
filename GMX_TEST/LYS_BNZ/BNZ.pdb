@@ -1,0 +1,10 @@
+REMARK 800 SITE_DESCRIPTION: binding site for residue BNZ A 200                 
+HET    BNZ  A 200       6                                                       
+HETNAM     BNZ BENZENE                                                          
+FORMUL   2  BNZ    C6 H6                                                        
+HETATM 1360  C1  BNZ A 200     -32.969   6.196   2.877  0.70 15.06           C  
+HETATM 1361  C2  BNZ A 200     -32.945   7.046   3.973  0.70 12.84           C  
+HETATM 1362  C3  BNZ A 200     -33.719   6.798   5.113  0.70 12.24           C  
+HETATM 1363  C4  BNZ A 200     -34.540   5.680   5.143  0.70 13.09           C  
+HETATM 1364  C5  BNZ A 200     -34.545   4.825   4.044  0.70 12.54           C  
+HETATM 1365  C6  BNZ A 200     -33.787   5.069   2.915  0.70 14.23           C  

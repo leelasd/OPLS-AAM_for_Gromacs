@@ -1,0 +1,153 @@
+Remarks LigParGen generated XPLOR-TOP file for Bonvin group (by Leela Dodda)
+
+set echo=false end 
+
+{ Bonds: atomType1 atomType2 kb r0 } 
+BOND   C801   C800    469.0   1.4000 
+BOND   C802   C801    469.0   1.4000 
+BOND   C803   C802    469.0   1.4000 
+BOND   C804   C803    469.0   1.4000 
+BOND   C805   C800    469.0   1.4000 
+BOND   H806   C800    367.0   1.0800 
+BOND   H807   C801    367.0   1.0800 
+BOND   H808   C802    367.0   1.0800 
+BOND   H809   C803    367.0   1.0800 
+BOND   H810   C804    367.0   1.0800 
+BOND   H811   C805    367.0   1.0800 
+BOND   C805   C804    469.0   1.4000 
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe  C800  C801  C802     63.0   120.00 
+ANGLe  C801  C802  C803     63.0   120.00 
+ANGLe  C802  C803  C804     63.0   120.00 
+ANGLe  C801  C800  C805     63.0   120.00 
+ANGLe  C801  C800  H806     35.0   120.00 
+ANGLe  C800  C801  H807     35.0   120.00 
+ANGLe  C801  C802  H808     35.0   120.00 
+ANGLe  C802  C803  H809     35.0   120.00 
+ANGLe  C803  C804  H810     35.0   120.00 
+ANGLe  C800  C805  H811     35.0   120.00 
+ANGLe  C805  C804  H810     35.0   120.00 
+ANGLe  C805  C800  H806     35.0   120.00 
+ANGLe  C804  C805  H811     35.0   120.00 
+ANGLe  C804  C803  H809     35.0   120.00 
+ANGLe  C800  C805  C804     63.0   120.00 
+ANGLe  C803  C802  H808     35.0   120.00 
+ANGLe  C803  C804  C805     63.0   120.00 
+ANGLe  C802  C801  H807     35.0   120.00 
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase } 
+DIHEdral C803   C802   C801   C800  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral C804   C803   C802   C801  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral C805   C800   C801   C802  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H806   C800   C801   C802  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H807   C801   C800   C805  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H808   C802   C801   C800  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H809   C803   C802   C801  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H810   C804   C803   C802  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H811   C805   C800   C801  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H809   C803   C802   H808  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H807   C801   C802   C803  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral C804   C805   C800   C801  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H811   C805   C804   C803  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H809   C803   C804   C805  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H810   C804   C805   C800  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H811   C805   C800   H806  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H811   C805   C804   H810  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H808   C802   C801   H807  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H806   C800   C805   C804  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H807   C801   C800   H806  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H810   C804   C803   H809  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral H808   C802   C803   C804  MULT 4   0.000     1   0.00 
+                                             3.625     2   180.00 
+                                             0.000     3   0.00 
+                                             0.000     4   180.00 
+DIHEdral    X      X      X      X  MULT 1   0.000     1     0.00 ! WILD CARD FOR MISSING TORSION PARAMETERS
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+IMPRoper C801   C800   C805   H806 2.50000 2 180.00000 
+IMPRoper H807   C801   C800   C802 2.50000 2 180.00000 
+IMPRoper H808   C802   C801   C803 2.50000 2 180.00000 
+IMPRoper H809   C803   C802   C804 2.50000 2 180.00000 
+IMPRoper H810   C804   C803   C805 2.50000 2 180.00000 
+IMPRoper C800   C805   H811   C804 2.50000 2 180.00000 
+IMPRoper    X      X      X      X  0.000     1     0.00  ! WILD CARD FOR MISSING IMPROPER PARAMETERS 
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded  C800    0.070000    3.550000    0.035000    3.550000 
+NONBonded  C801    0.070000    3.550000    0.035000    3.550000 
+NONBonded  C802    0.070000    3.550000    0.035000    3.550000 
+NONBonded  C803    0.070000    3.550000    0.035000    3.550000 
+NONBonded  C804    0.070000    3.550000    0.035000    3.550000 
+NONBonded  C805    0.070000    3.550000    0.035000    3.550000 
+NONBonded  H806    0.030000    2.420000    0.015000    2.420000 
+NONBonded  H807    0.030000    2.420000    0.015000    2.420000 
+NONBonded  H808    0.030000    2.420000    0.015000    2.420000 
+NONBonded  H809    0.030000    2.420000    0.015000    2.420000 
+NONBonded  H810    0.030000    2.420000    0.015000    2.420000 
+NONBonded  H811    0.030000    2.420000    0.015000    2.420000 
+
+set echo=true end 

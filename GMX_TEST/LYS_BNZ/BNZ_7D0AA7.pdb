@@ -1,0 +1,27 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 BNZ     1     -33.719   6.803   5.110
+ATOM      2  C01 BNZ     1     -32.949   7.049   3.983
+ATOM      3  C02 BNZ     1     -32.971   6.191   2.877
+ATOM      4  C03 BNZ     1     -33.784   5.067   2.912
+ATOM      5  C04 BNZ     1     -34.551   4.833   4.050
+ATOM      6  C05 BNZ     1     -34.532   5.672   5.136
+ATOM      7  H06 BNZ     1     -33.689   7.478   5.953
+ATOM      8  H07 BNZ     1     -32.317   7.924   3.960
+ATOM      9  H08 BNZ     1     -32.364   6.403   2.009
+ATOM     10  H09 BNZ     1     -33.819   4.387   2.072
+ATOM     11  H0A BNZ     1     -35.186   3.960   4.079
+ATOM     12  H0B BNZ     1     -35.140   5.457   6.002
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    3    9 
+CONECT    4   10 
+CONECT    5   11 
+CONECT    6   12 
+CONECT    5    6 
+END
