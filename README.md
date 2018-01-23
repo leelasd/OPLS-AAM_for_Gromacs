@@ -9,9 +9,9 @@ Recently Jorgensen group has designed OPLS-AA/M force field for proteins and imp
 This work has been done as part of LigParGen webserver.  If you use this implementation, please cite the following references. 
 
 
-•	__ Improved Peptide and Protein Torsional Energetics with the OPLS-AA Force Field Michael J. Robertson, Julian Tirado-Rives, and William L. Jorgensen J. Chem. Theory Comput., 2015, 11 (7), pp 3499–3509 __
+•	 **Improved Peptide and Protein Torsional Energetics with the OPLS-AA Force Field Michael J. Robertson, Julian Tirado-Rives, and William L. Jorgensen J. Chem. Theory Comput., 2015, 11 (7), pp 3499–3509**
 
-•	__ LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands. Leela S. Dodda, Israel Cabeza de Vaca, Julian Tirado-Rives, and William L. Jorgensen Nucleic Acids Research, 2017, 45 (W1), pp W331–W336 __
+•	**LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands. Leela S. Dodda, Israel Cabeza de Vaca, Julian Tirado-Rives, and William L. Jorgensen Nucleic Acids Research, 2017, 45 (W1), pp W331–W336**
 
 ### Introduction
 
