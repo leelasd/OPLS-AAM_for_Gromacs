@@ -23,7 +23,7 @@ H
 [ PRO-NH2+ ]
 [ replace ]
 N		oplsm_309	14.0027	-0.2
-CA		oplsm_246	12.011	0.23
+CA		oplsm_295	12.011	0.23
 CD		oplsm_296	12.011	0.17
 [ add ]
 2	4	H	N	CA	C
